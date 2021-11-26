@@ -67,7 +67,7 @@ ngOnInit(){
      4000)
 
   setTimeout(() =>{
-        this.chartOptions.subtitle.text = 'Wait for 3 more second to see the Line Chart';
+        this.chartOptions.subtitle.text = 'Line Chart';
         this.chartOptions.title.text =  "Monthly Average Temperature (3rd Chart)"
         this.chartOptions.chart.type = 'line';
      
